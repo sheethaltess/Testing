@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        //without callback----
+    //function greatUser(name){
+    //console.log("hello"+name);
+   // }
+   // greatUser("john");
+
+    //with callback
+    function userCallBack(name ,callback){
+console.log("hello :"+name)
+callback();
+    }
+
+    function callback(){
+        console.log("call me ones----")
+    }
+    //pass function as argument===
+  //  userCallBack("Jhone",callback)
+   // setTimeout(userCallBack,8000,"sCOTT",callback)
+   // setInterval(userCallBack,4000,"sCOTT",callback)
+    
+    </script>
+</body>
+</html>>
